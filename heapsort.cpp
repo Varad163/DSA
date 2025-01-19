@@ -35,7 +35,7 @@ void heapSort(std::vector<int> &arr)
     for (int i = n / 2 - 1; i >= 0; i--)
         heapify(arr, n, i);
 
-    // Extract elements from heap one by one..
+    // Extract elements from heap one by one
     for (int i = n - 1; i > 0; i--)
     {
         // Move current root to end
