@@ -7,7 +7,7 @@ struct Node
     int data;
     Node *next;
 
-    // Constructor to initialize a node
+    // Constructor to initialize a node//
     Node(int value) : data(value), next(nullptr) {}
 };
 
