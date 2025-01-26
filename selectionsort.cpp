@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-// Function to perform selection sort..
+// Function to perform selection sort
 void selectionSort(vector<int> &arr)
 {
     int n = arr.size();
