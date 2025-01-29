@@ -8,9 +8,9 @@ class Stack
     int arr[MAX]; // Array to store stack elements
 
 public:
-    Stack() : top(-1) {} // Constructor initializes an empty stack
+    Stack() : top(-1) {} 
 
-    // Push an element onto the stack
+
     void push(int x)
     {
         if (top >= MAX - 1)
