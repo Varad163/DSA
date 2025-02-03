@@ -3,7 +3,7 @@
 #include <cctype>
 using namespace std;
 
-// Function to check if a character is an operator
+// Function to check if a character is an operator.../..././././././/.
 bool isOperator(char c)
 {
     return (c == '+' || c == '-' || c == '*' || c == '/');
