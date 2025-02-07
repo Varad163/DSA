@@ -41,13 +41,13 @@ string prefixToInfix(string prefix)
         }
     }
 
-    // The final infix expression is on top of the stack
+    // The final infix expression is on top of the stack//.././
     return st.top();
 }
 
 int main()
 {
-    string prefix = "*+AB-CD"; // Example: Prefix Expression
+    string prefix = "*+AB-CD"; // Example: Prefix Expression././././
 
     string infix = prefixToInfix(prefix);
     cout << "Infix Expression: " << infix << endl;
