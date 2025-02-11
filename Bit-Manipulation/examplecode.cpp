@@ -5,7 +5,7 @@ int main()
 {
     int A = 5, B = 3;
 
-    cout << "A & B: " << (A & B) << endl;   // AND
+    cout << "A & B: " << (A & B) << endl;   // AND/././../
     cout << "A | B: " << (A | B) << endl;   // OR
     cout << "A ^ B: " << (A ^ B) << endl;   // XOR
     cout << "~A: " << (~A) << endl;         // NOT
