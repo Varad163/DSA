@@ -10,7 +10,7 @@ public:
         int n = word.size();
         int capitalCount = 0;
 
-        // Count the number of uppercase letters///././././
+        // Count the number of uppercase letters
         for (char ch : word)
         {
             if (isupper(ch))
