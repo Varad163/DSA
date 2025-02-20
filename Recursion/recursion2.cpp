@@ -19,7 +19,6 @@ bool isSafe(vector<vector<int>> &board, int row, int col, int N)
             return false;
     }
 
-    // Check the upper-right diagonal
     for (int i = row, j = col; i >= 0 && j < N; i--, j++)
     {
         if (board[i][j] == 1)
