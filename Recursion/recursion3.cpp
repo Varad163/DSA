@@ -27,7 +27,7 @@ int main()
     }
     else
     {
-        // Calling the recursive function
+        // Calling the recursive function/.
         std::cout << "Factorial of " << num << " is " << factorial(num) << "\n";
     }
 
