@@ -14,7 +14,7 @@ void generateSubsets(string &s, string current, int index, vector<string> &resul
     // Exclude the current character
     generateSubsets(s, current, index + 1, result);
 
-    // Include the current character
+    // Include the current character.//
     generateSubsets(s, current + s[index], index + 1, result);
 }
 
