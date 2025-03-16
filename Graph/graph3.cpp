@@ -57,7 +57,7 @@ public:
         cout << endl;
     }
 
-    // DFS Traversal
+    
     void dfsHelper(int node, vector<bool> &visited) {
         visited[node] = true;
         cout << node << " ";
