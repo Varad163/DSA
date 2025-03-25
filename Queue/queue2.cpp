@@ -19,6 +19,8 @@ int main() {
     cout << "After popping one element, Front: " << q.front() << endl;
 
     // Check if the queue is empty
+
+    
     if (q.empty()) {
         cout << "Queue is empty" << endl;
     } else {
