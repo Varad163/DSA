@@ -86,7 +86,7 @@ int main()
     editor.undo(); // No more undos!
 
     editor.redo(); // Redo: "Hello, World!"
-    editor.redo(); // Redo: "Hello, World! Welcome"
+    editor.redo(); 
     editor.redo(); // No more redos!
 
     return 0;

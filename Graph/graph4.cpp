@@ -49,7 +49,7 @@ int main()
 
 
     
-    // Print the adjacency list representation of the graph
+    // Print the adjacency list representa
     g.printGraph();
 
     return 0;
