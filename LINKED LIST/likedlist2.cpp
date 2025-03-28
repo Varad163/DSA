@@ -77,9 +77,11 @@ int main()
     editor.edit("Hello, World!");
     editor.edit("Hello, World! Welcome");
 
-    editor.show(); // Current: "Hello, World! Welcome"
 
-    editor.undo(); // Undo: "Hello, World!"
+
+    editor.show(); 
+
+    editor.undo(); 
     editor.undo(); // Undo: "Hello"
     editor.undo(); // No more undos!
 
