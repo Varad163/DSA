@@ -18,7 +18,7 @@ public:
         adjList[dest].push_back(src); // For undirected graphs
     }
 
-    // Function to print the adjacency list representation of the graph
+
     void printGraph() const
     {
         for (int i = 0; i < numVertices; ++i)
