@@ -47,9 +47,6 @@ int main()
     g.addEdge(2, 3);
     g.addEdge(3, 4);
 
-
-    
-    // Print the adjacency list representa
     g.printGraph();
 
     return 0;
