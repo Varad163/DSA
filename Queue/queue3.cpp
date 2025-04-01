@@ -16,7 +16,7 @@ int main()
     std::cout << "Queue: ";
     while (!animals.empty())
     {
-        // Access the front element of the queue
+       
         std::cout << animals.front() << " ";
         // Remove the front element from the queue
         animals.pop();
