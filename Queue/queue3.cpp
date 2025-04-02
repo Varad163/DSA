@@ -4,7 +4,7 @@
 
 int main()
 {
-    // Create a queue to hold string values
+  
     std::queue<std::string> animals;
 
     // Enqueue (push) some elements
