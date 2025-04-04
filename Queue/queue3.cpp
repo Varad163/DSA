@@ -12,7 +12,8 @@ int main()
     animals.push("Dog");
     animals.push("Fox");
 
-    // Print and dequeue each element until the queue is empty
+
+   
     std::cout << "Queue: ";
     while (!animals.empty())
     {
