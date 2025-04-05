@@ -7,7 +7,6 @@ int main()
   
     std::queue<std::string> animals;
 
-    // Enqueue (push) some elements
     animals.push("Cat");
     animals.push("Dog");
     animals.push("Fox");
