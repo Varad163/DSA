@@ -18,7 +18,7 @@ int main()
     {
        
         std::cout << animals.front() << " ";
-        // Remove the front element from the queue
+   
         animals.pop();
     }
     std::cout << std::endl;
