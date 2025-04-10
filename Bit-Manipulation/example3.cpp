@@ -12,7 +12,7 @@ int countSubsets(vector<int> &arr, int n, int xorSum, int k, vector<unordered_ma
     if (dp[n].find(xorSum) != dp[n].end())
         return dp[n][xorSum];
 
-    // Include current element in XOR sum././.
+ 
     int include = countSubsets(arr, n - 1, xorSum ^ arr[n - 1], k, dp);
 
     // Exclude current element
