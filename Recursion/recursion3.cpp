@@ -8,7 +8,7 @@ long long factorial(int n)
     {
         return 1;
     }
-    // Recursive case: n * factorial(n-1)
+    
     return n * factorial(n - 1);
 }
 
