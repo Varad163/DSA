@@ -34,8 +34,7 @@ public:
 };
 
 int main()
-{
-    // Create a graph with 5 vertices
+{\
     Graph g(5);
 
     // Add edges between vertices
