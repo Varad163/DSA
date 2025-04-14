@@ -37,7 +37,6 @@ int main()
 {\
     Graph g(5);
 
-    // Add edges between vertices
     g.addEdge(0, 1);
     g.addEdge(0, 4);
     g.addEdge(1, 2);
