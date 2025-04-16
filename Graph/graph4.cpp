@@ -15,7 +15,7 @@ public:
     void addEdge(int src, int dest)
     {
         adjList[src].push_back(dest);
-        adjList[dest].push_back(src); // For undirected graphs
+        adjList[dest].push_back(src); 
     }
 
 
@@ -34,7 +34,7 @@ public:
 };
 
 int main()
-{\
+{
     Graph g(5);
 
     g.addEdge(0, 1);
