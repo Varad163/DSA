@@ -11,7 +11,16 @@ public:
     // Constructor to initialize the graph with a given number of vertices
     Graph(int vertices) : numVertices(vertices), adjList(vertices) {}
 
-    // Function to add an edge between two vertices
+    
+
+
+
+
+
+
+
+
+    
     void addEdge(int src, int dest)
     {
         adjList[src].push_back(dest);
