@@ -4,9 +4,7 @@
 using namespace std;
 
 int main() {
-    queue<int> q;  // Declare a queue of integers
-
-    // Enqueue (push) elements
+    queue<int> q;  
     q.push(10);
     q.push(20);
     q.push(30);
