@@ -12,7 +12,6 @@ int main() {
     cout << "Front element: " << q.front() << endl;
     cout << "Back element: " << q.back() << endl;
 
-    // Dequeue (pop) elements
     q.pop();
     cout << "After popping one element, Front: " << q.front() << endl;
 
