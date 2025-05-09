@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-// Function to perform Bubble Sort..././.
+
 void bubbleSort(std::vector<int> &arr)
 {
     int n = arr.size();
