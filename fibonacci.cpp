@@ -8,6 +8,7 @@ public:
         if (n <= 1)
             return n;
 
+
         int prev2 = 0;
         int prev1 = 1;
         int current;
